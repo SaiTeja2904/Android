@@ -20,8 +20,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private ListView mListView;
-    private ProgressDialog pDialog;
-    private Handler updateBarHandler;
     ArrayList<String> contactList;
     Cursor cursor;
     int counter;
