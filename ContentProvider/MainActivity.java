@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         getContacts();
         ArrayAdapter ar=new ArrayAdapter(this,android.R.layout.simple_list_item_1,contactList);
         mListView.setAdapter(ar);
-        pDialog.cancel();
+        
         // Set onclicklistener to the list item.
         mListView.setOnItemClickListener(new OnItemClickListener() {
             @Override
