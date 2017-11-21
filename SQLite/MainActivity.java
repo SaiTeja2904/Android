@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(it);
         }
         else{
-            Toast.makeText(MainActivity.this, "lanja please correct", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, " please correct", Toast.LENGTH_SHORT).show();
         }
 
     }
